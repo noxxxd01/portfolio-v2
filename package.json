@@ -7,7 +7,7 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "start:json-server": "nodemon"
+    "server": "json-server db.json --watch --port 3001"
   },
   "dependencies": {
     "@radix-ui/react-avatar": "^1.1.0",
