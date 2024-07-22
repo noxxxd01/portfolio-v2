@@ -1,0 +1,105 @@
+{
+  "projects": [
+    {
+      "id": "1",
+      "title": "Expense: Master Your Finances. Track Every Expense and Budget with Ease!",
+      "webname": "Expense",
+      "desc": "Expense is a cutting-edge budget tracker web application designed to help users effortlessly create budgets and track their expenses. Built with the powerful MERN stack, Expense ensures a seamless and efficient financial management experience.",
+      "image": "https://res.cloudinary.com/dfdwb3tmf/image/upload/v1721640978/Project%20Thumbnails/dsmi4jx6q0gn2fkm2ekb.png",
+      "techstack": [
+        {
+          "id": "1",
+          "name": "MongoDB"
+        },
+        {
+          "id": "2",
+          "name": "Express"
+        },
+        {
+          "id": "3",
+          "name": "React"
+        },
+        {
+          "id": "4",
+          "name": "Node"
+        },
+        {
+          "id": "5",
+          "name": "JavaScript"
+        },
+        {
+          "id": "6",
+          "name": "TailwindCSS"
+        },
+        {
+          "id": "7",
+          "name": "ShadCN UI"
+        }
+      ],
+      "github": "https://github.com/noxxxd01/expense",
+      "link": "https://expense-tracker-w0as.onrender.com/",
+      "createdAt": "July 21, 2024"
+    },
+
+    {
+      "id": "2",
+      "title": "Pintr: An Image-Based Social Media Platform like Pinterest",
+      "webname": "Pintr.",
+      "desc": "Pintr. is an image-based social media platform similar to Pinterest. Users can view posts and leave comments, making it a dynamic space for sharing and engaging with visual content.",
+      "image": "https://res.cloudinary.com/dfdwb3tmf/image/upload/v1721643651/Project%20Thumbnails/retlo0eelsjcekfvj3bx.png",
+      "techstack": [
+        {
+          "id": "1",
+          "name": "MongoDB"
+        },
+        {
+          "id": "2",
+          "name": "Express"
+        },
+        {
+          "id": "3",
+          "name": "React"
+        },
+        {
+          "id": "4",
+          "name": "Node"
+        },
+        {
+          "id": "5",
+          "name": "JavaScript"
+        },
+        {
+          "id": "6",
+          "name": "TailwindCSS"
+        }
+      ],
+      "github": "https://github.com/noxxxd01/pintr.",
+      "link": "https://pintr.onrender.com/",
+      "createdAt": "July 10, 2024"
+    },
+
+    {
+      "id": "3",
+      "title": "CyberSleek: E-commerce Based Website",
+      "webname": "CyberSleek",
+      "desc": "CyberSleek is an e-commerce website designed to provide a seamless online shopping experience. It features user authentication to ensure a secure experience and a user-friendly interface.",
+      "image": "https://res.cloudinary.com/dfdwb3tmf/image/upload/v1721647330/Project%20Thumbnails/mleo2sewsbtk2wj3vnbw.png",
+      "techstack": [
+        {
+          "id": "1",
+          "name": "Laravel"
+        },
+        {
+          "id": "2",
+          "name": "MySQL"
+        },
+        {
+          "id": "3",
+          "name": "PHP"
+        }
+      ],
+      "github": "https://github.com/noxxxd01/cybersleek-ecommerce",
+      "createdAt": "June 27, 2024"
+    }
+  ]
+}
