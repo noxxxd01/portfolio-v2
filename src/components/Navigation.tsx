@@ -42,12 +42,16 @@ export default function Navigation() {
         </CardContent>
         <CardFooter className="flex items-center gap-x-2 p-0 mt-6">
           <Contact />
-          <Button variant="outline" size="sm">
-            <Github className="w-4 h-4" />
-          </Button>
-          <Button variant="outline" size="sm">
-            <Linkedin className="w-4 h-4" />
-          </Button>
+          <Link href="https://github.com/noxxxd01">
+            <Button variant="outline" size="sm">
+              <Github className="w-4 h-4" />
+            </Button>
+          </Link>
+          <Link href="https://www.linkedin.com/in/mikko-lumpot-64204831a/">
+            <Button variant="outline" size="sm">
+              <Linkedin className="w-4 h-4" />
+            </Button>
+          </Link>
           <DropdownMenu>
             <DropdownMenuTrigger asChild>
               <Button variant="outline" size="sm">
