@@ -13,7 +13,7 @@ import Image from "next/image";
 export default function Education() {
   return (
     <div className="flex flex-col gap-y-4">
-      <Card className=" dark:border-neutral-900">
+      <Card className=" dark:border-neutral-800">
         <CardHeader>
           <CardTitle className="text-xl">Education</CardTitle>
         </CardHeader>
@@ -41,7 +41,7 @@ export default function Education() {
               </CardDescription>
             </div>
           </div>
-          <Separator className="bg-neutral-100 dark:bg-neutral-900" />
+          <Separator className="bg-neutral-100 dark:bg-neutral-800" />
           <div className="flex items-center gap-x-3">
             <div className="mb-auto">
               <Image

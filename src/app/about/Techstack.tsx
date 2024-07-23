@@ -4,7 +4,7 @@ import React from "react";
 export default function Techstack() {
   return (
     <div>
-      <Card className="dark:border-neutral-900">
+      <Card className="dark:border-neutral-800">
         <CardHeader>
           <CardTitle className="text-xl">Techstacks</CardTitle>
         </CardHeader>
