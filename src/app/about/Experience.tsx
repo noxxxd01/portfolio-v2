@@ -12,7 +12,7 @@ import React from "react";
 export default function Experience() {
   return (
     <div>
-      <Card>
+      <Card className="dark:border-neutral-900">
         <CardHeader>
           <CardTitle className="text-xl">Experience</CardTitle>
         </CardHeader>

@@ -4,9 +4,9 @@ import React from "react";
 export default function Techstack() {
   return (
     <div>
-      <Card>
+      <Card className="dark:border-neutral-900">
         <CardHeader>
-          <CardTitle>Techstacks</CardTitle>
+          <CardTitle className="text-xl">Techstacks</CardTitle>
         </CardHeader>
       </Card>
     </div>
