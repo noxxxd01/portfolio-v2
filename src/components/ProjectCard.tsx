@@ -68,9 +68,13 @@ export default function ProjectCard() {
                 <CardTitle>{project.title}</CardTitle>
                 <CardDescription>{project.desc}</CardDescription>
               </div>
-              <div className="flex flex-wrap gap-2 mt-4">
+              <div className="flex flex-wrap gap-2 mt-4 ">
                 {project.techstack.map((tech) => (
-                  <Badge variant="secondary" key={tech.id}>
+                  <Badge
+                    variant="secondary"
+                    key={tech.id}
+                    className="text-neutral-700 dark:text-neutral-100"
+                  >
                     {tech.name}
                   </Badge>
                 ))}
@@ -119,7 +123,7 @@ export default function ProjectCard() {
               />
             </div>
           </CardContent>
-          <Separator className="mt-7 bg-neutral-100 dark:bg-neutral-800" />
+          <Separator className="mt-7 bg-neutral-200 dark:bg-neutral-800" />
         </Card>
       ))}
     </>
