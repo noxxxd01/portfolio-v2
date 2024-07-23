@@ -21,9 +21,15 @@ import { Separator } from "./ui/separator";
 import { Avatar, AvatarFallback, AvatarImage } from "./ui/avatar";
 import { Github, Linkedin, Moon, Sun } from "lucide-react";
 import Contact from "./Drawer";
+import { useEffect, useState } from "react";
 
 export default function Navigation() {
   const { setTheme } = useTheme();
+  const [isActive, setIsActive] = useState("projects");
+
+  useEffect(() => {
+    setIsActive(isActive);
+  });
 
   return (
     <div className="flex flex-col gap-y-10">
@@ -85,14 +91,32 @@ export default function Navigation() {
         </CardHeader>
       </Card>
       <Card className="border-none shadow-none">
-        <CardContent className="p-0">
+        <CardContent className="p-0 flex items-center gap-4">
           <Link href="/">
-            <Button variant="link" className="pl-0">
-              Projects
+            <Button
+              variant="link"
+              onClick={() => setIsActive("projects")}
+              className={`p-0 hover:no-underline ${
+                isActive === "projects"
+                  ? "border-b-neutral-400 border-b-[1px]"
+                  : ""
+              }`}
+            >
+              <CardDescription>Projects</CardDescription>
             </Button>
           </Link>
           <Link href="/about">
-            <Button variant="link">About</Button>
+            <Button
+              variant="link"
+              onClick={() => setIsActive("about")}
+              className={`p-0 hover:no-underline ${
+                isActive === "about"
+                  ? "border-b-neutral-400 border-b-[1px]"
+                  : ""
+              }`}
+            >
+              <CardDescription>About</CardDescription>
+            </Button>
           </Link>
         </CardContent>
         <Separator className="bg-neutral-200 dark:bg-neutral-800" />

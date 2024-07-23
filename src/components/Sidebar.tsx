@@ -39,7 +39,10 @@ export default function Sidebar() {
         <Card className="border-none shadow-none">
           <CardHeader>
             <CardTitle>Mikko</CardTitle>
-            <CardDescription>Web Developer & Data Scientist</CardDescription>
+            <CardDescription className="font-medium text-neutral-700">
+              Web Developer & Data Scientist
+            </CardDescription>
+            <CardDescription>lumpotmikko1@gmail.com</CardDescription>
           </CardHeader>
         </Card>
         <Card className="border-none shadow-none">
