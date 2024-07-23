@@ -119,7 +119,7 @@ export default function ProjectCard() {
               />
             </div>
           </CardContent>
-          <Separator className="mt-7 bg-neutral-100 dark:bg-neutral-900" />
+          <Separator className="mt-7 bg-neutral-100 dark:bg-neutral-800" />
         </Card>
       ))}
     </>

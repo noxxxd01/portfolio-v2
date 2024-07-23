@@ -95,7 +95,7 @@ export default function Navigation() {
             <Button variant="link">About</Button>
           </Link>
         </CardContent>
-        <Separator className="bg-neutral-100 dark:bg-neutral-900" />
+        <Separator className="bg-neutral-100 dark:bg-neutral-800" />
       </Card>
     </div>
   );

@@ -43,11 +43,11 @@ export default function RootLayout({
               <Navigation />
               {children}
             </div>
-            <div className="flex-shrink-0 hidden lg:block border-l-[1px] border-l-neutral-100 dark:border-l-neutral-900">
+            <div className="flex-shrink-0 hidden lg:block border-l-[1px] border-l-neutral-100 dark:border-l-neutral-800">
               <Sidebar />
             </div>
           </main>
-          <div className="px-6 xl:px-[8rem] 2xl:px-[9rem] border-t-[1px] border-t-neutral-100 dark:border-t-neutral-900">
+          <div className="px-6 xl:px-[8rem] 2xl:px-[9rem] border-t-[1px] border-t-neutral-100 dark:border-t-neutral-800">
             <Footer />
           </div>
           <Toaster />
