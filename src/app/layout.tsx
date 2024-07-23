@@ -7,6 +7,7 @@ import { ThemeProvider } from "@/components/theme-provider";
 import Sidebar from "@/components/Sidebar";
 import Navigation from "@/components/Navigation";
 import { Toaster } from "@/components/ui/toaster";
+import Footer from "@/components/Footer";
 
 const fontSans = FontSans({
   subsets: ["latin"],
@@ -46,6 +47,9 @@ export default function RootLayout({
               <Sidebar />
             </div>
           </main>
+          <div className="px-6 xl:px-[8rem] 2xl:px-[9rem] border-t-[1px] border-t-neutral-100 dark:border-t-neutral-900">
+            <Footer />
+          </div>
           <Toaster />
         </ThemeProvider>
       </body>

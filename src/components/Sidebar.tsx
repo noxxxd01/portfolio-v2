@@ -46,7 +46,7 @@ export default function Sidebar() {
           <CardContent className="flex items-center gap-x-2">
             <Contact />
             <Link href="https://github.com/noxxxd01" target="_blank">
-              <Button size="sm">
+              <Button variant="outline" size="sm">
                 <Github className="w-4 h-4" />
               </Button>
             </Link>

@@ -42,7 +42,7 @@ export default function Navigation() {
         </CardContent>
         <CardFooter className="flex items-center gap-x-2 p-0 mt-6">
           <Contact />
-          <Button size="sm">
+          <Button variant="outline" size="sm">
             <Github className="w-4 h-4" />
           </Button>
           <Button variant="outline" size="sm">

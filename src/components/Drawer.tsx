@@ -63,14 +63,14 @@ const Contact: React.FC = () => {
   return (
     <Drawer>
       <DrawerTrigger asChild>
-        <Button variant="outline" size="sm" className="w-full lg:w-initial">
-          Hit me up
+        <Button size="sm" className="w-full lg:w-initial">
+          Get in touch
         </Button>
       </DrawerTrigger>
       <DrawerContent>
         <Card className="border-none shadow-none w-full lg:w-[40rem] mx-auto">
           <CardHeader className="text-center">
-            <CardTitle>Hit me up</CardTitle>
+            <CardTitle>Get in touch</CardTitle>
             <CardDescription>Drop a message below</CardDescription>
           </CardHeader>
           <form onSubmit={onSubmit}>

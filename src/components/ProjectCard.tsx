@@ -44,9 +44,7 @@ export default function ProjectCard() {
   useEffect(() => {
     const fetchProjects = async () => {
       try {
-        const response = await fetch(
-          "https://json-server-one-ecru.vercel.app/projects"
-        );
+        const response = await fetch("http://localhost:3001/projects");
         const projects = await response.json();
         setProjects(projects);
       } catch (error) {
