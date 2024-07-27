@@ -47,7 +47,7 @@ export default function RootLayout({
               <Sidebar />
             </div>
           </main>
-          <div className="px-6 xl:px-[8rem] 2xl:px-[9rem] border-t-[1px] border-t-neutral-200 dark:border-t-neutral-800">
+          <div className="px-6 xl:px-[9rem] 2xl:px-[9rem] border-t-[1px] border-t-neutral-200 dark:border-t-neutral-800">
             <Footer />
           </div>
           <Toaster />
