@@ -38,7 +38,7 @@ export default function RootLayout({
           enableSystem
           disableTransitionOnChange
         >
-          <main className="px-6 xl:px-[8rem] 2xl:px-[9rem] grid grid-cols-1 lg:flex gap-[6rem]">
+          <main className="px-6 xl:px-[9rem] 2xl:px-[9rem] grid grid-cols-1 lg:flex gap-[6rem]">
             <div className="flex-grow pt-[4rem]">
               <Navigation />
               {children}

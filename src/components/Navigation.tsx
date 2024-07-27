@@ -34,16 +34,16 @@ export default function Navigation() {
   return (
     <div className="flex flex-col gap-y-10">
       <Card className="border-none shadow-none lg:hidden">
-        <CardContent className="p-0 flex flex-row items-center gap-3">
+        <CardContent className="p-0 flex flex-row items-center gap-5">
           <div>
             <Avatar>
               <AvatarImage src="https://github.com/shadcn.png" />
               <AvatarFallback>CN</AvatarFallback>
             </Avatar>
           </div>
-          <div>
-            <CardTitle>Mikko</CardTitle>
-            <CardDescription>Web Developer & Data Scientist</CardDescription>
+          <div className="flex flex-col gap-y-1">
+            <CardTitle className="text-2xl font-semibold">Mikko</CardTitle>
+            <CardDescription>lumpotmikko1@gmail.com</CardDescription>
           </div>
         </CardContent>
         <CardFooter className="flex items-center gap-x-2 p-0 mt-6">
@@ -82,12 +82,7 @@ export default function Navigation() {
       </Card>
       <Card className="border-none shadow-none hidden lg:block">
         <CardHeader className="p-0">
-          <CardDescription className="text-md">
-            Hi, there I'm Mikko 👋
-          </CardDescription>
-          <CardTitle className="text-3xl">
-            A Web Developer & Data Scientist
-          </CardTitle>
+          <CardTitle className="text-4xl font-semibold">Mikko Lumpot</CardTitle>
         </CardHeader>
       </Card>
       <Card className="border-none shadow-none">

@@ -38,11 +38,12 @@ export default function Sidebar() {
       <div>
         <Card className="border-none shadow-none">
           <CardHeader>
-            <CardTitle>Mikko</CardTitle>
-            <CardDescription className="font-medium text-neutral-700 dark:text-neutral-300">
-              Web Developer & Data Scientist
-            </CardDescription>
+            <CardTitle className="font-semibold text-lg">Mikko</CardTitle>
             <CardDescription>lumpotmikko1@gmail.com</CardDescription>
+            <CardDescription className="font-medium text-neutral-700 dark:text-neutral-300 w-[18rem]">
+              Web Developer | JavaScript, TypeScript, React, Node, Express, Vue,
+              ShadCN, TailwindCSS, Redux Toolkit
+            </CardDescription>
           </CardHeader>
         </Card>
         <Card className="border-none shadow-none">

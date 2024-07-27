@@ -121,13 +121,11 @@ export default function ProjectCard() {
                     </div>
                   </CardFooter>
                 </div>
-                <div>
-                  <Image
+                <div className="lg:mt-8 ml-0 md:ml-7">
+                  <img
                     src={project.image}
                     alt={project.webname}
-                    width={250}
-                    height={300}
-                    className="w-full lg:w-auto"
+                    className="w-full h-auto rounded md:w-[15rem] md:h-[6rem]"
                     sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
                   />
                 </div>
