@@ -38,7 +38,7 @@ export default function Sidebar() {
       <div>
         <Card className="border-none shadow-none">
           <CardHeader>
-            <CardTitle className="font-semibold text-lg">Mikko</CardTitle>
+            <CardTitle className="font-medium text-lg">Mikko</CardTitle>
             <CardDescription>lumpotmikko1@gmail.com</CardDescription>
             <span className="h-1"></span>
             <CardDescription className="w-[18rem]">
