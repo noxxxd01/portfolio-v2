@@ -40,7 +40,8 @@ export default function Sidebar() {
           <CardHeader>
             <CardTitle className="font-semibold text-lg">Mikko</CardTitle>
             <CardDescription>lumpotmikko1@gmail.com</CardDescription>
-            <CardDescription className="font-medium text-neutral-700 dark:text-neutral-300 w-[18rem]">
+            <span className="h-1"></span>
+            <CardDescription className="w-[18rem]">
               Web Developer | JavaScript, TypeScript, React, Node, Express, Vue,
               ShadCN, TailwindCSS, Redux Toolkit
             </CardDescription>
