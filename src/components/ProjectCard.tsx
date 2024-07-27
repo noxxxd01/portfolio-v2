@@ -20,6 +20,8 @@ import {
   TooltipTrigger,
 } from "./ui/tooltip";
 import SkeletonCard from "./SkeletonCard";
+import Lightbox from "yet-another-react-lightbox";
+import "yet-another-react-lightbox/styles.css";
 
 type TechStack = {
   id: string;
@@ -41,6 +43,8 @@ type Project = {
 export default function ProjectCard() {
   const [projects, setProjects] = useState<Project[]>([]);
   const [loading, setLoading] = useState(true);
+  const [lightboxOpen, setLightboxOpen] = useState(false);
+  const [selectedImage, setSelectedImage] = useState<string | null>(null);
 
   useEffect(() => {
     const fetchProjects = async () => {
@@ -61,6 +65,11 @@ export default function ProjectCard() {
 
     fetchProjects();
   }, []);
+
+  const handleImageClick = (image: string) => {
+    setSelectedImage(image);
+    setLightboxOpen(true);
+  };
 
   return (
     <>
@@ -125,14 +134,26 @@ export default function ProjectCard() {
                   <img
                     src={project.image}
                     alt={project.webname}
-                    className="w-full h-auto rounded md:w-[15rem] md:h-[6rem]"
+                    className="w-full h-auto rounded md:w-[15rem] md:h-[6rem] cursor-pointer"
                     sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
+                    onClick={() => handleImageClick(project.image)}
                   />
                 </div>
               </CardContent>
               <Separator className="mt-7 bg-neutral-200 dark:bg-neutral-800" />
             </Card>
           ))}
+      {selectedImage && (
+        <Lightbox
+          open={lightboxOpen}
+          close={() => setLightboxOpen(false)}
+          slides={[{ src: selectedImage }]}
+          render={{
+            iconPrev: () => null,
+            iconNext: () => null,
+          }}
+        />
+      )}
     </>
   );
 }
