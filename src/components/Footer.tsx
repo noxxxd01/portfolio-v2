@@ -104,10 +104,7 @@ export default function Footer() {
               <Github className="w-4 h-4" />
             </Button>
           </Link>
-          <Link
-            href="https://www.linkedin.com/in/mikko-lumpot-64204831a/"
-            target="_blank"
-          >
+          <Link href="https://www.linkedin.com/in/mikko-lumpot" target="_blank">
             <Button variant="outline" size="sm">
               <Linkedin className="w-4 h-4" />
             </Button>

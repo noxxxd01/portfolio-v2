@@ -56,7 +56,7 @@ export default function Sidebar() {
               </Button>
             </Link>
             <Link
-              href="https://www.linkedin.com/in/mikko-lumpot-64204831a/"
+              href="https://www.linkedin.com/in/mikko-lumpot"
               target="_blank"
             >
               <Button variant="outline" size="sm">
